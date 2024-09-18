@@ -1,0 +1,55 @@
+.faq {
+    padding: 60px 40px;
+    background-color: #f9f9f9; /* Fondo ligeramente gris para diferenciar la sección */
+    text-align: center;
+  }
+  
+  .faq h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .faq ul {
+    list-style: none; /* Eliminamos el estilo de lista por defecto */
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px; /* Ancho máximo para que el texto no se extienda demasiado */
+  }
+  
+  .faq li {
+    font-size: 18px;
+    color: #555;
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Línea sutil entre cada pregunta */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .faq li:hover {
+    background-color: #e6e6e6; /* Cambia el fondo al pasar el cursor */
+    color: #007BFF; /* Cambia el color del texto al pasar el cursor */
+  }
+  
+  /* Responsividad para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .faq h2 {
+      font-size: 28px;
+    }
+  
+    .faq li {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .faq h2 {
+      font-size: 24px;
+    }
+  
+    .faq li {
+      font-size: 14px;
+    }
+  }
+  

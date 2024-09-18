@@ -1,0 +1,59 @@
+.header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .logoImg{
+    width: 100px;
+    height: auto;
+  }
+  
+  .nav {
+    flex-grow: 1;
+    margin-left: 40px;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLinks li {
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .navLinks li a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .navLinks li a:hover {
+    color: #ff6347; /* Cambiar al color que se ajuste a la paleta de tu sitio */
+  }
+  
+  .button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e55335;
+  }
+  

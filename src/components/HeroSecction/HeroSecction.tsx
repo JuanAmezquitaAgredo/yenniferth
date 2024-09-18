@@ -1,5 +1,6 @@
 // src/components/HeroSection.js
 import React from 'react';
+import Image from 'next/image';
 import styles from './styles.module.css';
 
 interface Props {
@@ -19,7 +20,7 @@ export default function HeroSection({ id }: Props) {
           a respirar mejor mañana!</p>
       </div>
       <div className={styles.image}>
-        <img src="/Respira_img1.png" alt="Fisioterapeuta" />
+        <Image src="/Respira_img1.png" alt="Sobre mi" width={500} height={500}/>
       </div>
     </section>
   );

@@ -1,11 +1,12 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from './style.module.css';
 
 export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}> 
-        <img className={styles.logoImg} src="/terapia_respiratoria.png" alt="No Image" />
+        <Image className={styles.logoImg} src="/terapia_respiratoria.png" alt="No Image" width={100} height={100}/>
       </div>
       <nav className={styles.nav}>
         <ul className={styles.navLinks}>

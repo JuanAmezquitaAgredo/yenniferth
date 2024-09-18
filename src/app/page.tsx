@@ -18,6 +18,8 @@ export default function Home() {
       <ServicesSection id="services"/>
       <ArticlesSection id="articles"/>
       <Testimonials id="testimonials"/>
+      <GallerySection id="gallery"/>
+      <FAQSection id="faq"/>
       <ContactSection id="contact"/>
       <Footer />
     </>
